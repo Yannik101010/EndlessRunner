@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8137935018912786569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8137935018912786567}
+  - component: {fileID: 8137935018912786566}
+  m_Layer: 0
+  m_Name: Terrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8137935018912786567
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8137935018912786569}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8137935018912786566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8137935018912786569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5994f6c6c71197478c8c89c7eb4070a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  environment: {fileID: 4253635659523145474, guid: 8eb3f4c8d0657e145ae8b61ac4c940f9, type: 3}
+  ground: {fileID: 9163699940409452441, guid: 20b57ea90eeb7c141bad62558bc04627, type: 3}
+  rocksObj: {fileID: 8269254085496684384, guid: af393a2fcac72a04c8cee3e3fee1161c, type: 3}
+  coinObj: {fileID: 3651036949278452263, guid: 04d8abb1825d5574dbab88814f296e8b, type: 3}
+  crateObj: {fileID: 392896816100603957, guid: 3283ebef22003a4498000fad570fae97, type: 3}
+  bigObstacleObj: {fileID: 3140842825639059516, guid: 12ba6ffb3ba3cce49a3b75f2fa0338f7, type: 3}
+  shieldObj: {fileID: 8915715655105293615, guid: 5693a57c90ef40744848833e4aa5eff8, type: 3}
